@@ -12,7 +12,21 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif'],
+        'monserrat': ['"Montserrat Variable"', 'sans-serif']
+      },
+      colors: {
+        'btn-color': '#275A53',
+        'cart-color': '#FDFDFD',
+        'body-color': '#F1F6F4',
+      },
+      screens: {
+        'xsm': '375px',
+      }
     },
+    
+
   },
   plugins: [],
 }
