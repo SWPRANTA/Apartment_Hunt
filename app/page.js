@@ -64,7 +64,7 @@ export default function Home() {
   ]
   return (
     <main className="bg-[#F1F6F4]">
-      <HeroSection/>
+      <HeroSection isSearchBox={true} title="FIND YOUR HOUSE RENT"/>
 
       <section id="innerSection" className="container flex flex-col items-center mt-7">
         <div className="text-btn-color">House Rent</div>

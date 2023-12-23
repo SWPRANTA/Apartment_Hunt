@@ -16,7 +16,7 @@ const Cart = ({imagePath, title, price, btnPath}) => {
                     <span className='ml-2'>Nasirabad H/S, Chattogram</span>
                 </div>
 
-                <div className='flex flex-row mt-2'>
+                <div className='flex flex-row mt-2 justify-between'>
                     <div className='flex font-poppins text-[#747474] items-center mr-[43px]'>
                         <Image src="/images/bed.svg" width='24' height='24' />
                         <span className='ml-2'>3 Bedrooms</span>
